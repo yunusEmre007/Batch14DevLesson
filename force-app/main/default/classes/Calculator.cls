@@ -1,6 +1,4 @@
 public class Calculator {
-    
-    //parameterless method
     public void publicMessage(){
         system.debug('public method called');
         //call private method from public method
@@ -13,7 +11,7 @@ public class Calculator {
     }
 
     //parameterless method.
-    //elaborated message.
+    //elaborated message..
     public void welcomeMessage(){
         system.debug('welcome to apex calc');
     }

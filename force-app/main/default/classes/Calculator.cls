@@ -10,7 +10,8 @@ public class Calculator {
         System.debug('private method called');
     }
 
-
+    //parameterless method.
+    //elaborated message..
     public void welcomeMessage(){
         system.debug('welcome to apex calc');
     }

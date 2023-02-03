@@ -13,6 +13,7 @@ public class Calculator {
     }
 
     //parameterless method.
+    //elaborated message.
     public void welcomeMessage(){
         system.debug('welcome to apex calc');
     }

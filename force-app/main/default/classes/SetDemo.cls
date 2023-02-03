@@ -38,6 +38,7 @@ public class SetDemo {
     }
 
 //we will create a method to convert set to uppercase.
+
     //out method will accept set<string> 
     //return set<string> by converting each element to upperCase
     public static set<string> upperCaseSet(set<string> setStr) {
@@ -68,5 +69,15 @@ public class SetDemo {
             System.debug('Tek sayilar --->' +oddNumbers);
 
             
+        }
+
+        public static void tekCiftMetodu(Set<Integer> sayilar){
+            for (integer i : sayilar){
+                if (Math.mod(i, 2) == 0){
+                    system.debug(i +' sayisi çifttir.');
+                }else{
+                    system.debug(i + ' sayisi tektir.');
+                }
+            }
         }
 }

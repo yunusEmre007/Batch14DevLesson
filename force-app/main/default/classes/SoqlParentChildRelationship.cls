@@ -7,6 +7,7 @@ public class SoqlParentChildRelationship {
             System.debug('Account Id --> '+eachAcc.Id);
             System.debug('Account Name --> '+eachAcc.Name);
         }
+        System.debug('the number of contacts ---> ' +listContacts.size());
         System.debug('The list of accounts obtained from Contact --> '+MapAccFromContact);
     }
     public static void parentToChild(){
@@ -18,6 +19,7 @@ public class SoqlParentChildRelationship {
             System.debug('contact Name -->'+ eachContact.Name);
             
         }
+        System.debug('the number of contacts ---> ' +listAccount.size());
         System.debug('The list of contacts obtained from Account --> '+mapOfContacts);
     }
 }

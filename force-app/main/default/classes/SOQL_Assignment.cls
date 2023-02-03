@@ -3,6 +3,7 @@ public class SOQL_Assignment {
         List<contact> lstContact = [select id, LastName from contact where LastName LIKE '%A%'];
         System.debug(lstContact);
         system.debug('the number of values of the lstContact is -->' +lstContact.size());
+        System.debug('The number of contacts ---> ' +lstContact.size());
     }
     
     public static void soql_forMethod(){
@@ -14,5 +15,6 @@ public class SOQL_Assignment {
             system.debug(contactLastName + ContactPhone);
         }
     }
+    
 
 }

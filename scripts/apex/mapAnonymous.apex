@@ -25,10 +25,18 @@ System.debug('Currencies are ' +currencies);
 Set<String> countries = mapCountryCurrency.keySet();
 system.debug(countries);
 
-for(string eachKey: countrySet){
+for (string eachCntry : countrySet){
+    string printString = 'Country is '+eachCntry+ ', its currency is '+ mapCountryCurrency.get(eachCntry);
+    system.debug(printString);
+    
+}
+
+
+
+/* for(string eachKey: countrySet){
     string printString = 'Country is '+eachKey;
     //VALUE FROM KEY FROM A MAP
-    string eachValue = mapCountryCurrency.get(eachKey);
-    printString += ', its currency is '+eachValue;
-    system.debug(printString);
-}
+    
+    //printString += ', its currency is '+eachValue;
+    system.debug(printString + mapCountryCurrency.get(eachKey));
+} */
